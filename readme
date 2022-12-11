@@ -1,17 +1,20 @@
-# Exercice1
+# Exercice1  
+  
+--------------------------------------------------------------------  
+  
+Implantation de l'algorithme des k plus proches voisins aux habitations sur Airbnb  
+  
+--------------------------------------------------------------------  
 
---------------------------------------------------------------------
-
-Implantation de l'algorithme des k plus proches voisins aux habitations sur Airbnb
-
---------------------------------------------------------------------
-
--videFonction.c: initialise les liste des structures en tant que liste vide
--estVide.c: vérifie si la liste de processus est vide, dans ce cas renvoie 0, sinon renvoie 1
--step.c:simule une étape en affichant la durée et le nom processus en cours et en l'exécutant, dépend
--run.c:execute step.c tant que le la file de processus n'est pas vide
--ajout_activite: permet de rentrer un processus dans la liste de processus
--main.c: execute de manière ordonnée tous les programmes/porcédures cités ci dessus
+-affichage.c: Affiche k distances  
+-calculDistance.c: Calcule la distance d'un unique critère  
+-calculDistance2.c: Calcule la distance de k critères (peut avoir des critères = 0)  
+-calculMoyenne.c: Calcule la moyenne des k distances  
+-lecture.c: Lit le fichier csv, utilise les autres programmes pour renvoyer la distance voulue  
+-main.c: fichier main  
+-randomize.c: Ordonne de manière aléatoire le tableau  
+-swap.c: Permet d'échanger deux logements du tableau  
+-triTab.c: tri le tableau de logement selon la distance  
 
 --------------------------------------------------------------------
 
